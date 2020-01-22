@@ -1,0 +1,50 @@
+.fondo__navbar{
+    background-color: yellow!important;
+}
+
+.divmedia{
+    background-color: hotpink;
+    height: 500px;
+    width: 100%;
+    }
+       
+@media (min-width: 576px){
+  .divmedia{
+      background-color: blue;
+  }
+}
+
+@media (min-width: 768px){
+ .divmedia{
+     background-color: green;
+ }
+}
+
+@media (min-width: 992px){
+.divmedia{
+    background-color: greenyellow;
+}
+}
+
+@media (min-width: 1200px){
+    .divmedia{
+        background-color: khaki;
+    }
+ 
+}
+
+.div-rojo{
+    background-color: red;
+    height: 300px;
+}
+
+.div-azul{
+    background: blue;
+    height: 300px;
+}
+
+.div-verde{
+    background-color: green;
+    height: 300px;
+}
+
