@@ -18,34 +18,35 @@
 <body>
 
 
-  <div class="container pizza-estilo">
-    <div class="row">
-      <div class="col">
-        <img src="assets/img/principal.jpg" alt="pizza-principal" class="w-100">
-      </div>
-      <div class="col-12 col-md-6 titulo-receta">
-        PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES
-        <hr class="w-100" style="border-color: black;">
-        <p class="bajada-ins"> 110 MIN / 6 A 8 PORCIONES</p> 
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <!--<button type="button" class="btn btn-outline-dark w-80 boton-compartir">Enviar por correo</button>-->
-              <button type="button" class="btn btn-outline-dark w-80 boton-compartir" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo">
-                Enviar por correo
-              </button>
-            </div>
-            <div class="col">
-              <!--<button type="button" class="btn btn-outline-dark w-80 boton-compartir">Añadir a favoritos</button>-->
-              <button type="button" class="btn btn-outline-dark w-80 boton-compartir" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos">
-                Añadir a favoritos
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light fondo__navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><h1 class="ricomida">Ricomida</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item botones">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recetas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
     </div>
-</div>
+    </div>
+  </nav>
+
+<!--REEL-->
+
+
 
 <!--CAROUSEL-->
 <section class="carrusel mt-5">
@@ -58,22 +59,78 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row">
-            <div class="col"><img src="assets/img/slider-1.png" class="w-100"></div>
-            <div class="col"><img src="assets/img/slider-2.png" class="w-100"></div>
-            <div class="col"><img src="assets/img/slider-3.png" class="w-100"></div>
-            <div class="col"><img src="assets/img/slider-4.png" class="w-100"></div>
+            <div class="col"><div class="card">
+              <div class="card-header">
+                Sitio web informativo
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <img src="assets/img/ejercicio-uno.jpg" class="w-100" alt="">
+                </blockquote>
+              </div>
+            </div></div>
           </div>
-        </div>
+        </div><!--Prueba-->
         <div class="carousel-item">
           <div class="row">
-            <div class="col"><img src="assets/img/slider-5.png" class="w-100"></div>
-            <div class="col"><img src="assets/img/slider-6.png" class="w-100"></div>
-            <div class="col"><img src="assets/img/slider-7.png" class="w-100"></div>
-            <div class="col"><img src="assets/img/slider-8.png" class="w-100"></div>
+            <div class="col"><div class="card">
+              <div class="card-header">
+                Sitio web informativo
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <img src="assets/img/ejercicio-dos.jpg" class="w-100" alt="">
+                </blockquote>
+              </div>
           </div>
         </div>
       </div>
   </div>
+<div class="carousel-item">
+    <div class="row">
+      <div class="col"><div class="card">
+        <div class="card-header">
+          Sitio web informativo
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <img src="assets/img/ejercicio-tres.jpg" class="w-100" alt="">
+          </blockquote>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="carousel-item">
+  <div class="row">
+    <div class="col"><div class="card">
+      <div class="card-header">
+        Sitio web informativo
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <img src="assets/img/ejercicio-cuatro.jpg" class="w-100" alt="">
+        </blockquote>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+  <div class="row">
+    <div class="col"><div class="card">
+      <div class="card-header">
+        Sitio web informativo
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <img src="assets/img/ejercicio-cinco.jpg" class="w-100" alt="">
+        </blockquote>
+      </div>
+  </div>
+</div>
+</div>
+</div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -82,6 +139,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+  
 </div>
 </section>
 
@@ -184,12 +242,36 @@
   <button type="button" class="btn btn-outline-light">Empezar</button>
 </div>
 
+<!--SERVICIOS Y FORMULARIOS-->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 style="text-align: left;">¡Impulsa tu negocio!</h1>
+      <i class="fas fa-mobile-alt fa-10x" style="margin: 7px; color: #ea512a; text-align: center;"></i>
+      <i class="fas fa-desktop fa-10x" style="margin: 7px; color: #ea512a; text-align: center;"></i>
+      <i class="fas fa-tablet-alt fa-10x" style="margin: 7px; color: #ea512a; text-align: center;"></i>
+      <h1 style="text-align: left; ">Nuestros servicios</h1>
+      <hr>
+      <p>Diseño y creación de tu sitio web</p>
+      <hr>
+      <p>Diseño y creación de tu aplicación</p>
+      <hr>
+      <p>Estrategia de Marketing Digital</p>
+      <hr>
+    </div>
+    <div class="col">
+      <div class="typeform-widget" data-url="https://ignacioarevalo.typeform.com/to/o4MGo7" style="width: 500px; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER RRSS-->
 <footer>
-  <h1 class="titulo-footer">Ricomida</h1>
+        <a href="https://linkedin.com"><i class="fab fa-linkedin fa-1x"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram fa-1x"></i></a>
+        <a href="https://behance.com"><i class="fab fa-behance fa-1x"></i></a>
+        <a href=""><i class="far fa-envelope fa-1x"></i></a>
 </footer>
-
-<div class="typeform-widget" data-url="https://ignacioarevalo.typeform.com/to/o6Raxk" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=o6Raxk&utm_source=typeform.com-01DZ4HARVKBP5M03GH3V1H5N95-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
-
 
  <!--js js js js-->
  <script
